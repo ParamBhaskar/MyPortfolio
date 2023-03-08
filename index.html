@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2>Portfo<span>lio</span></h2>
+            <ul>
+                <a href="#intro">Intro</a>
+                <a href="#projects">My Projects</a>
+                <a href="#achievements">Education & Achievements</a>
+                <a href="#contact">Contact Me</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro" id="intro">
+            <section id="animated_div" class="left">
+                <h1>
+                    <div style="font-family: 'Lobster', cursive;" class="hi">
+                        Hi, I'm
+                    </div>
+                    <div class="bhaskar" style="font-family: 'Lobster', cursive;">
+                        <span>B</span>
+                        <span>H</span>
+                        <span>A</span>
+                        <span>S</span>
+                        <span>K</span>
+                        <span>A</span>
+                        <span>R</span>
+                    </div>
+                    <div style="font-family: 'Lobster', cursive;" class="hi">
+                        a Developer
+                    </div>
+                </h1>
+            </section>
+            <section style="font-family: sans-serif; color: white;" class="right">
+                <h1
+                    style="margin: 5vh; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: xx-large;">
+                    About Me</h1>
+                <p
+                    style="font-family: 'Courier New', Courier, monospace; text-align: left; margin: 0 3vw; font-size: larger;">
+                    My name is
+                    <b style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Paramananda
+                        Bhaskar</b> and I am a <b
+                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">second-year
+                        undergraduate student</b> at the Department of
+                    <b style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Computer
+                        Science
+                        and Engineering</b> enrolled in its <b
+                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Dual Degree
+                        Program(B.tech + M.tech)</b> at the <b
+                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Indian Institute
+                        of
+                        Technology(IIT) Kharagpur</b>. I am interested in the areas of <b
+                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Software
+                        Development, Machine Learning &
+                        Deep
+                        Learning, Web Development and Systems & Network Programming</b>. I love
+                    doing competitive programming and engage myself in solving challenging algorithmic problems.
+                </p>
+            </section>
+        </div>
+
+        <div id="projects">
+            <div class="container">
+                <svg viewBox="0 0 960 300">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">My Projects</text>
+                    </symbol>
+
+                    <g class="g-ants">
+                        <use xlink:href="#s-text" class="projects"></use>
+                        <use xlink:href="#s-text" class="projects"></use>
+                        <use xlink:href="#s-text" class="projects"></use>
+                        <use xlink:href="#s-text" class="projects"></use>
+                        <use xlink:href="#s-text" class="projects"></use>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="wrapper" class="flex1">
+                <div class="card" style="animation: slide1 2s;">
+                    <img src="project1.jpg" alt="Project 1">
+                    <p>Project 1</p>
+                    <input type="button" value="Visit->">
+                </div>
+                <div class="card" style="animation: animate 2s;">
+                    <img src="project2.jpg" alt="Project 2">
+                    <p>Project 2</p>
+                    <input type="button" value="Visit->" style="cursor: pointer;">
+                </div>
+                <div class="card" style="animation: slide3 2s;">
+                    <img src="project3.jpg" alt="Project 3">
+                    <p>Project 3</p>
+                    <input type="button" value="Visit->">
+                </div>
+            </div>
+            <div class="flex2">
+                <div class="card" style="animation: slide1 2s;">
+                    <img src="project4.jpg" alt="Project 4">
+                    <p>Project 4</p>
+                    <input type="button" value="Visit->">
+                </div>
+                <div class="card" style="animation: slide3 2s;">
+                    <img src="project5.jpg" alt="Project 5">
+                    <p>Project 5</p>
+                    <input type="button" value="Visit->">
+                </div>
+                <!-- <div class="card">
+                    <img src="project6.png" alt="Project 6">
+                    <p>Project 6</p>
+                    <input type="button" value="Visit->">
+                </div> -->
+            </div>
+        </div>
+
+
+        <div class="timeline" id="achievements">
+            <h1 class="heading"
+                style="font-family: 'Lobster', cursive; color: white; text-align: center; font-size: 50px;">Education &
+                Achievements</h1>
+            <div class="block">
+                <div class="block-body">
+                    <h1 class="block-title">2019</h1>
+                    <p class="block-detail">96.57% in Class X Boards Exam (WBBSE), 2nd Rank in my District</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block-body">
+                    <h1 class="block-title">2021</h1>
+                    <p class="block-detail">97.40% in Class XII Boards Exam (WBCHSE)</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block-body">
+                    <h1 class="block-title">2020</h1>
+                    <p class="block-detail">Cracked KVPY SX 2020</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block-body">
+                    <h1 class="block-title">2021</h1>
+                    <p class="block-detail">Cracked JEE MAIN 2021</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block-body">
+                    <h1 class="block-title">2021</h1>
+                    <p class="block-detail">Cracked JEE ADVANCED 2021</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="block-body">
+                    <h1 class="block-title">2021-present</h1>
+                    <p class="block-detail">JBNSTS Scholarship Awardee</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="contact">
+        <section class="contact-section">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <div style="background-color:rgba(3,3,3,0.855);height:5vh" id="dev">
+            <a href="https://github.com/ParamBhaskar/" class="fa fa-github" target="_blank"
+                rel="noopener noreferrer"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <p>Feel free to drop a mail at <b>paramanandabhaskar@gmail.com</b></p>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+</body>
+
+</html>
