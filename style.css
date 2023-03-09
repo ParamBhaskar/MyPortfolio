@@ -96,7 +96,7 @@ main section h1 span {
 }
 .hi {
     width: 13ch;
-    border-right: 4px solid black;
+    /* border-right: 4px solid black; */
     margin: 2rem auto;
     white-space: nowrap;
     overflow: hidden;
